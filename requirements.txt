@@ -1,0 +1,5 @@
+requests==2.32.3
+requests-cache==1.2.1
+flask==3.0.3
+
+pre-commit==3.7.1

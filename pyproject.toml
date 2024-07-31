@@ -1,0 +1,11 @@
+[tool.black]
+line-length = 180
+include = '\.pyi?$'
+exclude = '''
+/(
+\.git
+| \.venv
+)/
+'''
+[tool.isort]
+profile = "black"
