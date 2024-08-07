@@ -1,10 +1,4 @@
-# Cover books API
-## What is it?
 
-A service for interacting with the Google Books API to search for books by ISBN and save book thumbnails to a local JSON file with caching capabilities.
-
-
-## How to:
 ### for windows:
 
 `python -m venv venv`
@@ -17,23 +11,10 @@ A service for interacting with the Google Books API to search for books by ISBN 
 
 `python app.py`
 
-### for macos:
-
-`python3 -m venv venv`
-
-`source venv/bin/activate`
-
-`pip install -r requirements.txt`
-
-` cd app`
-
-`python app.py`
-
-
 app run on port 5050
 
 ### example of usage:
-`http://127.0.0.1:5050/get_book_cover?isbn=9781259642197`
+`http://127.0.0.1:5050/get-book-thumbnail?isbn=9781259642197`
 
 ### isbn example:
 `
@@ -51,3 +32,5 @@ app run on port 5050
     "9780071796750",
     "9781259642197",
     "9781451188805",`
+
+    isbn_13_list = ["9780323393041", "9780323793759", "9781259642197"]
